@@ -82,7 +82,7 @@ your plugin is useful locally, run the following:
 
 .. code-block:: bash
 
-    poetry publish
+    poetry publish --build
 
 Your project should now be available on PyPI for users to install via ``pip
 install manim-YourPluginName`` and usable within their respective
