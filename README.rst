@@ -14,7 +14,7 @@ Installing Poetry
 ~~~~~~~~~~~~~~~~~
 Poetry can be installed on any OS that can has curl. Please visit the
 official poetry website for `installation instructions
-<https://python-poetry.org/docs/#installation>`_ .
+<https://python-poetry.org/docs/#installation>`_.
 
 Setting Up Your Plugin Directory Structure
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
