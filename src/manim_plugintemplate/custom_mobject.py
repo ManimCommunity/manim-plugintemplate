@@ -1,5 +1,10 @@
 from manim import *
 
+__all__ = [
+    "EmitWaveAtPoint",
+    "EmitWaves",
+]
+
 class EmitWaveAtPoint(Animation):
     CONFIG = {
         "small_radius": 0.0,

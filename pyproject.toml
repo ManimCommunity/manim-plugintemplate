@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "manim-PluginTemplate"
-version = "0.1.1"
+version = "0.1.3"
 description = "A template project to both illustrate and serve as an example for plugin creations on top of the manim (community edition) engine."
 license = "MIT"
 authors = ["Jason G. Villanueva <a@jsonvillanueva.com>"]
@@ -8,11 +8,11 @@ readme = "README.rst"
 repository = "https://gitlab.com/jsonV/manim-PluginTemplate"
 
 [tool.poetry.dependencies]
-python = "^3.6"
-manim = "^0.1.0"
 
 [tool.poetry.dev-dependencies]
-pytest = "*"
+
+[tool.poetry.plugins."manim.plugins"]
+"manim_plugintemplate" = "manim_plugintemplate"
 
 [build-system]
 requires = ["poetry-core>=1.0.0"]
