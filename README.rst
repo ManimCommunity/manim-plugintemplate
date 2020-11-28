@@ -3,9 +3,9 @@ Plugin Template
 This is a template project that demonstrates how one can create and upload a manim 
 plugin to PyPI using a PEP 517 compliant build system (in this case
 `poetry <https://python-poetry.org>`_). This build system ensures users of
-your plugin are able to do so reliably without without falling into
-dependency hell. You may use another build system other than poetry (e.g.
-Flit, Enscons, etc...) if you wish to.
+your plugin are able to do so reliably without falling into dependency hell.
+You may use another build system other than poetry (e.g. Flit, Enscons,
+etc...) if you wish to.
 
 Creating Plugins
 ----------------
