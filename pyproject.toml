@@ -6,10 +6,23 @@ license = "MIT"
 authors = ["The Manim Community Developers","Jason G. Villanueva <a@jsonvillanueva.com>"]
 readme = "README.rst"
 repository = "https://github.com/ManimCommunity/manim-plugintemplate"
+documentation="https://docs.manim.community/en/latest/installation/plugins.html"
+classifiers= [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Multimedia :: Video",
+    "Topic :: Multimedia :: Graphics",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+	"Programming Language :: Python :: 3.9",
+    "Natural Language :: English",
+]
 
 [tool.poetry.dependencies]
-
-[tool.poetry.dev-dependencies]
+python = "^3.6"
+manim = "^0.1"
 
 [tool.poetry.plugins."manim.plugins"]
 "manim_plugintemplate" = "manim_plugintemplate"
