@@ -1,7 +1,7 @@
 from manim import *
 
 
-class MyDotGrid(VMobject):
+class DotGrid(VMobject):
     def __init__(self):
         super().__init__(self)
         dot1 = Dot(fill_color=GREEN).shift(LEFT)
