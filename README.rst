@@ -1,9 +1,11 @@
 Plugin Template
 ===============
 Plugins are features that extend Manim's core functionality. This is a
-template project that demonstrates how you can create and upload a manim
-plugin to PyPI using a PEP 517 compliant build system, `Poetry
-<https://python-poetry.org>`_.
+template project repository that demonstrates how you can create and upload a
+manim plugin to PyPI using a PEP 517 compliant build system, `Poetry
+<https://python-poetry.org>`_. Feel free to copy the template repository on
+GitHub so you can generate a project with the same directory structure,
+branches, and files.
 
 Poetry is **NOT** required to create plugins, but is recommended because it
 provides build isolation and ensures users can reliably install your plugin
@@ -160,9 +162,28 @@ plugin is useful locally, run the following:
 
     poetry publish --build
 
+This will prompt you for your PyPI username and password; however, it is
+recommended to use a project PyPI API token with the username ``__token__``
+instead.
+
 Your project should now be available on PyPI for users to install via ``pip
 install manim-YourPluginName`` and usable within their respective
-environments.
+environments. If instead you would like to upload to Test PyPI, you can run:
+
+.. code-block:: bash
+
+    poetry config repositories.testpypi https://test.pypi.org/simple/
+    poetry publish -r testpypi --build
 
 See the official documentation for more information on the `publish command
 <https://python-poetry.org/docs/cli/#publish>`_.
+
+If you are interested in CI/CD pipelines and using GitHub Actions to
+automatically publish releases to your PyPI project, you can setup a PyPI API
+Token, or PyPI Test API Token for your project. Then on your GitHub
+repository you can setup a secret under the repository's settings, followed
+by the appropriate GitHub Action.
+
+See the official Python documentation on `publishing Python package
+distributions using GitHub Actions
+<https://packaging.python.org/guides/publishing-package-distribution-releases-using-github-actions-ci-cd-workflows/>`_.
