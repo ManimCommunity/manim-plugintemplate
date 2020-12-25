@@ -181,7 +181,8 @@ See the official documentation for more information on the `publish command
 If you are interested in CI/CD pipelines and using GitHub Actions to
 automatically publish releases to your PyPI project, you can setup a PyPI API
 Token, or PyPI Test API Token for your project. Then on your GitHub
-repository you can setup a secret tab under settings.
+repository you can setup a secret under the repository's settings, followed
+by the appropriate GitHub Action.
 
 See the official Python documentation on `publishing Python package
 distributions using GitHub Actions
