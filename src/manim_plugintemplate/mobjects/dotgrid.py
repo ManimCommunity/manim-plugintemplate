@@ -1,10 +1,9 @@
 from manim import *
 
-__all__ = [ "DotGrid" ]
-
+__all__ = ["DotGrid"]
 class DotGrid(VMobject):
     def __init__(self):
-        super().__init__(self)
+        super().__init__()
         dot1 = Dot(fill_color=GREEN).shift(LEFT)
         dot2 = Dot(fill_color=BLUE)
         dot3 = Dot(fill_color=RED).shift(RIGHT)
