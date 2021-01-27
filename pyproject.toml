@@ -22,7 +22,7 @@ classifiers= [
 
 [tool.poetry.dependencies]
 python = "^3.6"
-manim = "^0"
+manim = ">=0.2"
 
 [tool.poetry.plugins."manim.plugins"]
 "manim_plugintemplate" = "manim_plugintemplate"
