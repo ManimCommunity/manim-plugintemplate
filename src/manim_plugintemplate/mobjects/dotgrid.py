@@ -1,6 +1,8 @@
 from manim import *
 
 __all__ = ["DotGrid"]
+
+
 class DotGrid(VMobject):
     def __init__(self):
         super().__init__()
