@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "manim-PluginTemplate"
-version = "0.1.4"
+version = "0.1.5"
 description = "A template project to both illustrate and serve as an example for plugin creations on top of the manim (community edition) engine."
 license = "MIT"
 authors = ["The Manim Community Developers"]
@@ -21,8 +21,8 @@ classifiers= [
 ]
 
 [tool.poetry.dependencies]
-python = "^3.6"
-manim = ">=0.2"
+python = "^3.6.2"
+manim = ">=0.3"
 
 [tool.poetry.plugins."manim.plugins"]
 "manim_plugintemplate" = "manim_plugintemplate"
