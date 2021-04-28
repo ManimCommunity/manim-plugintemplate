@@ -1,3 +1,8 @@
+# Plugin Website
+
+A gallery of current plugins can be found here: https://plugins.manim.community/
+
+
 # Plugin Template
 
 Plugins are features that extend Manim's core functionality. This is a
