@@ -10,6 +10,10 @@ it provides build isolation and ensures users can reliably install your
 plugin without falling into dependency hell. You may use another build
 system (e.g. Flit, Setuptools, Pipenv, etc...) if you wish.
 
+# Plugin Website
+
+A gallery of current plugins can be found here: https://plugins.manim.community/
+
 ## Creating Plugins
 
 The only requirement of your preferred build system is that it specifies
